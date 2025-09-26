@@ -1,0 +1,137 @@
+<!DOCTY | CSE Student & Artist</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind for custom font -->
+    <script>
+        tailwind.config = {PE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aneeta
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary-indigo': '#4F46E5',
+                        'secondary-gray': '#F9FAFB',
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        /* Custom scrollbar for aesthetics */
+        body {
+            background-color: #f3f4f6;
+            font-family: 'Inter', sans-serif;
+        }
+        .card {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+        }
+    </style>
+</head>
+<body class="min-h-screen antialiased text-gray-800">
+
+    <div class="container mx-auto px-4 py-8 md:py-12">
+        <header class="text-center mb-12">
+            <div class="w-24 h-24 bg-primary-indigo/10 rounded-full mx-auto flex items-center justify-center mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-primary-indigo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0 3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3a3 3 0 0 0-3 3a3 3 0 0 0-3 3v2"/></svg>
+            </div>
+            <h1 class="text-5xl font-extrabold text-primary-indigo tracking-tight">Aneeta</h1>
+            <p class="text-xl mt-2 text-gray-600">CSE Student from Thrissur, Kerala | Aspiring Professional</p>
+        </header>
+
+        <main class="max-w-4xl mx-auto space-y-12">
+
+            <!-- Professional Summary & Aspiration -->
+            <section id="summary" class="bg-white p-8 rounded-xl card">
+                <h2 class="text-3xl font-bold mb-4 flex items-center text-primary-indigo">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"></path></svg>
+                    My Professional Journey
+                </h2>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    Currently pursuing Computer Science and Engineering (CSE), I am deeply involved in developing **logical and technical problem-solving skills**. My goal isn't just to graduate, but to become a **well-rounded professional** who can seamlessly bridge creativity and logic. I am driven to achieve **something substantial** after my studies, focusing on opportunities where technology meets design and innovation.
+                </p>
+            </section>
+
+            <!-- Location & Education -->
+            <section id="details" class="grid md:grid-cols-2 gap-8">
+                <!-- Education Card -->
+                <div class="bg-white p-6 rounded-xl card">
+                    <h3 class="text-2xl font-semibold mb-3 text-primary-indigo flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 18 0v2a9 9 0 0 1-18 0v-2zm9-7.5V11m-1-4.5h2"></path></svg>
+                        CSE Student
+                    </h3>
+                    <p class="text-gray-600">
+                        I am currently focused on my studies in Computer Science and Engineering, building a strong foundation in core concepts like Data Structures, Algorithms, and Software Development. I am eager to apply these skills to real-world projects.
+                    </p>
+                </div>
+                <!-- Location Card -->
+                <div class="bg-white p-6 rounded-xl card">
+                    <h3 class="text-2xl font-semibold mb-3 text-primary-indigo flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="3"></circle><path d="M12 21.7c-4.4 0-8-3.6-8-8c0-5.8 8-15.7 8-15.7s8 9.9 8 15.7c0 4.4-3.6 8-8 8z"></path></svg>
+                        Based in Thrissur
+                    </h3>
+                    <p class="text-gray-600">
+                        Hailing from Thrissur, Kerala, I draw inspiration from the vibrant culture and technical community here. This location serves as my base while I pursue global opportunities.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Creative Passion - Drawing -->
+            <section id="art" class="bg-primary-indigo/5 p-8 rounded-xl card border border-primary-indigo/20">
+                <h2 class="text-3xl font-bold mb-4 flex items-center text-primary-indigo">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21c3.9 0 7-3.1 7-7s-3.1-7-7-7c-1 0-2 .2-2.9 .6c-.3-.2-.5-.4-.7-.6l-4-4l-1 1l4 4c.2.2.4.4.6.7c-.4 .9-.6 1.9-.6 2.9c0 3.9 3.1 7 7 7zM14 4a2 2 0 1 0-4 0a2 2 0 0 0 4 0zM12 19c-2.8 0-5-2.2-5-5s2.2-5 5-5s5 2.2 5 5s-2.2 5-5 5z"></path></svg>
+                    Creative Pursuits: Drawing
+                </h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                    My true passion lies in **drawing**. This creative outlet is more than a hobby; it’s where I practice patience, attention to detail, and visual communication. I see this artistic foundation as a great asset for fields like **UI/UX design, graphic design, and creative technology roles**.
+                </p>
+                <div class="mt-6 text-center">
+                    <button class="bg-primary-indigo hover:bg-indigo-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105">
+                        View Drawing Portfolio (Coming Soon!)
+                    </button>
+                </div>
+            </section>
+
+            <!-- Future Projects and Skills -->
+            <section id="projects" class="bg-white p-8 rounded-xl card">
+                <h2 class="text-3xl font-bold mb-4 flex items-center text-primary-indigo">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    Key Skills & Focus Areas
+                </h2>
+                <div class="grid sm:grid-cols-2 gap-4 text-gray-700">
+                    <ul class="space-y-2">
+                        <li class="flex items-start"><span class="text-primary-indigo mr-2 text-xl">&bull;</span>CSE Fundamentals (DS & Algo)</li>
+                        <li class="flex items-start"><span class="text-primary-indigo mr-2 text-xl">&bull;</span>Web Development (HTML/CSS/JS)</li>
+                        <li class="flex items-start"><span class="text-primary-indigo mr-2 text-xl">&bull;</span>Creative Problem Solving</li>
+                    </ul>
+                    <ul class="space-y-2">
+                        <li class="flex items-start"><span class="text-primary-indigo mr-2 text-xl">&bull;</span>Digital and Traditional Art</li>
+                        <li class="flex items-start"><span class="text-primary-indigo mr-2 text-xl">&bull;</span>Visual Communication</li>
+                        <li class="flex items-start"><span class="text-primary-indigo mr-2 text-xl">&bull;</span>Aspiration for *Product* roles</li>
+                    </ul>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="mt-16 pt-8 border-t border-gray-300 text-center text-gray-500">
+            <p>&copy; 2025 Aneeta. Built with a blend of Code and Creativity.</p>
+            <p class="mt-2 text-sm">
+                Connect: <a href="mailto:aneeta@example.com" class="text-primary-indigo hover:underline">Email Me</a> | <a href="#" class="text-primary-indigo hover:underline">LinkedIn</a> | <a href="#" class="text-primary-indigo hover:underline">Art Page</a>
+            </p>
+        </footer>
+    </div>
+
+</body>
+</html>
